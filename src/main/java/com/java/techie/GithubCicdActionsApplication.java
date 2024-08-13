@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GithubCicdActionsApplication {
 
-	@GetMapping
+	@GetMapping("/message")
 	public String message() {
 		return "Hello Github CICD Actions!";
 	}
